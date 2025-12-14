@@ -2,14 +2,26 @@
 
 Personal Guix Packages - https://guix.gnu.org/cookbook/en/html_node/Packaging-Tutorial.html
 
-** Contents
+Mostly Common Lisp and Scheme packages not available in the usual Guix channels.
 
-| Package | URL                            | Install                                         |
-|---------+--------------------------------+-------------------------------------------------|
-| ICL     | https://github.com/atgreen/icl | ==guix install -L <repo-path/guix-packages> icl== |
+** 📂 Contents
 
+| Package | URL                            | Install                                       |
+|---------+--------------------------------+-----------------------------------------------|
+| ICL     | https://github.com/atgreen/icl | =guix install -L <repo-path/guix-packages> icl= |
 
-** ⚠️ AI Usage
+** 🧰 Usage
+
+If you want to install as a local channel, then add something like to your =channels.scm=:
+
+#+begin_src scheme
+(channel
+ (name 'guix-packages)
+ (url "file:///<local-path>/guix-packages")
+ (branch "main"))
+#+end_src
+
+** 🤖 AI at Work
 
 I make heavy use of agents to generate these packages. This is exactly the kind of toil that AI/LLMs are good for. If you have a philosophical issue with this please feel free to hand-roll your own packages elsewhere. Thank you! 🙇🏼‍♂️
 
