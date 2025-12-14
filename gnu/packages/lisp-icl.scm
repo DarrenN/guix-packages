@@ -1,5 +1,5 @@
 ;;; GNU Guix --- Functional package management for GNU
-;;; Copyright © 2025 Your Name <your.email@example.com>
+;;; Copyright © 2025 DarrenN <info AT v25media.com>
 ;;;
 ;;; This file is part of GNU Guix.
 ;;;
