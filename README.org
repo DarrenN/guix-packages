@@ -2,8 +2,18 @@
 
 Personal Guix Packages - https://guix.gnu.org/cookbook/en/html_node/Packaging-Tutorial.html
 
-*Note*: AI is used extensively, if that's a problem for you then be an adult and roll your own packages as you see fit.
+** Contents
+
+| Package | URL                            | Install                                         |
+|---------+--------------------------------+-------------------------------------------------|
+| ICL     | https://github.com/atgreen/icl | ==guix install -L <repo-path/guix-packages> icl== |
+
+
+** ⚠️ AI Usage
+
+I make heavy use of agents to generate these packages. This is exactly the kind of toil that AI/LLMs are good for. If you have a philosophical issue with this please feel free to hand-roll your own packages elsewhere. Thank you! 🙇🏼‍♂️
 
 ---
 
-(c) Copyright DarrenN
+- (c) copyright DarrenN
+- Licence: GNU
