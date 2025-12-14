@@ -1,0 +1,9 @@
+* Guix Packages
+
+Personal Guix Packages - https://guix.gnu.org/cookbook/en/html_node/Packaging-Tutorial.html
+
+:warning: Note: AI is used extensively, if that's a problem for you then be an adult and roll your own packages as you see fit.
+
+---
+
+(c) Copyright DarrenN
